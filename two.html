@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="bg-black w-screen min-h-screen">
+      <main
+        class="container mx-auto w-full bg-gray-900 text-white p-8 max-w-[940px]"
+      >
+        <div class="border border-gray bg-black p-4">
+          <div class="flex justify-between">
+            <button class="bg-blue-900 text-white p-2">Button</button>
+            <div class="">
+              <button class="bg-blue-500 text-black p-2">Button</button>
+              <button class="bg-gray-800 text-white p-2 ml-1">Button</button>
+            </div>
+          </div>
+          <div class="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Card 1 -->
+            <section
+              class="h-52 overflow-hidden border border-gray-800 bg-black/50 uppercase relative"
+            >
+              <div class="absolute top-0 left-0 z-10 p-4">
+                <div
+                  class="border border-green-500 p-2 text-green-500 w-24 text-center"
+                >
+                  benefit
+                </div>
+                <h1 class="text-base text-white font-bold mt-4">
+                  Moongate 10% Off Discount
+                </h1>
+                <div class="text-xs mt-4">
+                  <p class="text-white">Moongate Club</p>
+                  <p>Ends on 01 Dec 2025</p>
+                </div>
+                <button class="bg-blue-500 text-white p-2 mt-3">Button</button>
+              </div>
+              <div class="relative h-52 z-0">
+                <div
+                  class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black via-black/95 to-black/10 z-10"
+                ></div>
+                <img
+                  class="relative top-0 left-1/3 w-full h-52"
+                  src="https://picsum.photos/200"
+                  alt=""
+                />
+              </div>
+            </section>
+            <!-- End of Card 1 -->
+            <!-- Duplicates of Card 1 -->
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
